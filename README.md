@@ -18,10 +18,15 @@ Di project ini saya mengcloning web x/twitter sederhana yang dibuat menggunakan 
 FITUR
 
 -user bisa memposting
+
 -user bisa melihat daftar posting yang di ambil dari api
+
 -navigation bar
+
 -sidebar
+
 -rightbar 
+
 -trending view
 
 
