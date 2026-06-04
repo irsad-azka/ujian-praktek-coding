@@ -55,7 +55,65 @@ PROJECT STRUCTURE
 
 
 
+pada project ini, struktur dibagi menjadi beberapa bagian utama seperti
+
+components untuk komponen UI yang bisa digunakan ulang seperti:
+
+sidebar
+======================================================
+Fungsi:
+
+Menu samping (kiri)
+seperti:
+
+-Home
+
+-Profile
+
+-chat
 
 
+rightbar
+======================================================
+Fungsi:
+
+Sidebar kanan
+berisi:
+
+-Trending
+
+-today news
+
+
+
+navbar
+======================================================
+Fungsi:
+
+Navigasi atas (for you dan following)
+Biasanya ada icon + menu
+
+
+halaman utaman/mainpage
+======================================================
+Fungsi:
+
+-main content / feed
+
+-Tempat post muncul
+
+
+sidebar.css
+======================================================
+Fungsi:
+
+-Styling khusus sidebar
+
+-Dipisah karena lebih kompleks
+
+
+
+CODE EXPLANATION
+======================================================
 
 >>>>>>> cccab9d21fea63276269aaa883abae2dd58703ce
