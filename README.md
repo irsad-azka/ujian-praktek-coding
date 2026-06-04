@@ -180,4 +180,35 @@ Isi dari card:
 -Beberapa icon seperti comment, repost, like, dan share
 
 Intinya: bagian ini digunakan untuk menampilkan semua post ke tampilan.
+
+
+CODE EXPLANATION MAINPAGE API
+====================================================================
+
+![Home](./src/assets/screenshot/APIICODE.png)
+![Home](./src/assets/screenshot/APICODE.png)
+
+# Fetch Data API dengan React
+
+## Mengambil Data dari API
+
+Data komentar diambil ketika component pertama kali dirender. Setelah data diterima dari API, data tersebut disimpan ke dalam state sehingga dapat digunakan oleh component.
+
+---
+
+## Menampilkan Data
+
+Data yang sudah tersimpan kemudian dibatasi menjadi 20 komentar pertama. Selanjutnya dilakukan perulangan pada setiap data untuk ditampilkan ke halaman.
+
+---
+
+## Menampilkan Informasi
+
+Setiap komentar menampilkan beberapa informasi, yaitu nama pengguna, email pengguna, dan isi komentar.
+
+---
+
+## Kesimpulan
+
+Program mengambil data dari API, menyimpannya ke state, lalu melakukan perulangan untuk menampilkan 20 komentar pertama ke halaman.
 >>>>>>> cccab9d21fea63276269aaa883abae2dd58703ce

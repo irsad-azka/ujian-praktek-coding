@@ -51,33 +51,33 @@ export default function RightSidebar() {
       </div>
 
       <div className="border border-gray-600 rounded-xl p-4 space-y-3">
-        <h2 className="font-semibold">Today’s News</h2>
+        <h2 className="font-semibold">Tranding</h2>
 
         <div>
-          <p className="text-sm">
-            Liverpool Part Ways with Arne Slot
-          </p>
           <span className="text-xs text-gray-500">
-            3 hours ago
+            tranding in Indonesia
           </span>
+          <p className="text-sm">
+            Rp 18.000
+          </p>
         </div>
 
         <div>
-          <p className="text-sm">
-            Toddler Sings First Words
-          </p>
           <span className="text-xs text-gray-500">
-            2 hours ago
+            tranding in Indonesia
           </span>
+          <p className="text-sm">
+            Sarwendah
+          </p>
         </div>
 
         <div>
-          <p className="text-sm">
-            BTS Members Return Home
-          </p>
           <span className="text-xs text-gray-500">
-            7 hours ago
+            entertainment in Indonesia
           </span>
+          <p className="text-sm">
+            Logan
+          </p>
         </div>
 
       </div>
