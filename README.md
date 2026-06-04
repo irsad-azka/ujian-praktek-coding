@@ -118,7 +118,24 @@ CODE EXPLANATION
 
 ![Home](./src/assets/screenshot/appcode.png)
 
-App.jsx adalah komponen utama dalam aplikasi React yang berfungsi untuk mengatur struktur layout dan menampilkan komponen utama seperti Navbar, Sidebar, Main Content, dan Right Sidebar.
+## Code Explanation (App.jsx)
+
+### Import React & Components
+-Mengimpor React dan semua komponen yang digunakan seperti Navbar, Mainpage, Sidebar, dan RightSidebar.
+
+### Navbar Component
+-Menampilkan navigasi di bagian atas.
+
+### Main Content (Mainpage)
+-Menampilkan konten utama aplikasi.
+Wrapper (div pt-20)
+Memberikan jarak atas agar konten tidak tertutup Navbar.
+
+### Sidebar Component
+-Menampilkan navigasi di sisi kiri.
+
+### RightSidebar Component
+-Menampilkan konten tambahan di sisi kanan.
 
 
 >>>>>>> cccab9d21fea63276269aaa883abae2dd58703ce
