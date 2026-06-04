@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 
-CLONING WEB X/TWITTER
+
+# CLONING WEB X/TWITTER
 
 
 DESKRIPSI
@@ -53,5 +54,4 @@ PROJECT STRUCTURE
 
 
 
-# ujian-praktek-coding
 >>>>>>> cccab9d21fea63276269aaa883abae2dd58703ce
