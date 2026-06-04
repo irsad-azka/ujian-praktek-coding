@@ -4,7 +4,7 @@ CLONING WEB X/TWITTER
 
 
 DESKRIPSI
-
+===================================================================================================================================
 
 
 Di project ini saya mengcloning web x/twitter sederhana yang dibuat menggunakan react dan tailwind CSS, menggunakan api dan usetate
@@ -16,6 +16,8 @@ Di project ini saya mengcloning web x/twitter sederhana yang dibuat menggunakan 
 
 
 FITUR
+===================================================================================================================================
+
 
 -user bisa memposting
 
@@ -32,18 +34,24 @@ FITUR
 
 
 TECH STACK
+===================================================================================================================================
+
 
 
 -ReactJS
+
 -Tailwind CSS
+
 -React Hooks (useState, useEffect)
 
 
 
 
+PROJECT STRUCTURE
+===================================================================================================================================
 
 
 
-=======
+
 # ujian-praktek-coding
 >>>>>>> cccab9d21fea63276269aaa883abae2dd58703ce
