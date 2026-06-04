@@ -182,6 +182,67 @@ Isi dari card:
 Intinya: bagian ini digunakan untuk menampilkan semua post ke tampilan.
 
 
+# API Comments JSONPlaceholder
+
+## Fungsi
+
+API `https://jsonplaceholder.typicode.com/comments` berfungsi untuk menyediakan data komentar dalam format JSON. Data yang diberikan dapat digunakan oleh aplikasi untuk ditampilkan atau diolah lebih lanjut.
+
+## Kegunaan
+
+- Menampilkan daftar komentar pada website atau aplikasi.
+- Melatih penggunaan API menggunakan `fetch()` atau `axios`.
+- Simulasi backend sebelum backend sebenarnya dibuat.
+- Menguji tampilan seperti tabel, card, atau fitur pencarian.
+- Mempelajari cara kerja request HTTP.
+
+## Struktur Data
+
+Setiap komentar memiliki beberapa properti:
+
+| Properti | Keterangan |
+|-----------|-------------|
+| `postId` | ID postingan yang memiliki komentar tersebut |
+| `id` | ID unik komentar |
+| `name` | Nama atau judul komentar |
+| `email` | Email pengirim komentar |
+| `body` | Isi komentar |
+
+## Contoh Data
+
+```json
+{
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos"
+}
+```
+
+## Endpoint
+
+### Mengambil semua komentar
+
+```
+https://jsonplaceholder.typicode.com/comments
+```
+
+### Mengambil satu komentar berdasarkan ID
+
+```
+https://jsonplaceholder.typicode.com/comments/1
+```
+
+### Mengambil komentar berdasarkan ID postingan
+
+```
+https://jsonplaceholder.typicode.com/comments?postId=1
+```
+
+
+
+
 CODE EXPLANATION MAINPAGE API
 ====================================================================
 

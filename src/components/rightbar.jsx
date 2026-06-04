@@ -51,11 +51,11 @@ export default function RightSidebar() {
       </div>
 
       <div className="border border-gray-600 rounded-xl p-4 space-y-3">
-        <h2 className="font-semibold">Tranding</h2>
+        <h2 className="font-semibold">Trending</h2>
 
         <div>
           <span className="text-xs text-gray-500">
-            tranding in Indonesia
+            trending in Indonesia
           </span>
           <p className="text-sm">
             Rp 18.000
@@ -64,7 +64,7 @@ export default function RightSidebar() {
 
         <div>
           <span className="text-xs text-gray-500">
-            tranding in Indonesia
+            trending in Indonesia
           </span>
           <p className="text-sm">
             Sarwendah
