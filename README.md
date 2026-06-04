@@ -59,8 +59,8 @@ pada project ini, struktur dibagi menjadi beberapa bagian utama seperti
 
 components untuk komponen UI yang bisa digunakan ulang seperti:
 
-sidebar
-======================================================
+## sidebar
+
 Fungsi:
 
 Menu samping (kiri)
@@ -73,8 +73,8 @@ seperti:
 -chat
 
 
-rightbar
-======================================================
+## rightbar
+
 Fungsi:
 
 Sidebar kanan
@@ -86,16 +86,16 @@ berisi:
 
 
 
-navbar
-======================================================
+## navbar
+
 Fungsi:
 
 Navigasi atas (for you dan following)
 Biasanya ada icon + menu
 
 
-halaman utaman/mainpage
-======================================================
+## halaman utaman/mainpage
+
 Fungsi:
 
 -main content / feed
