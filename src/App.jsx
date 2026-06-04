@@ -5,13 +5,12 @@ import Sidebar from './components/sidebar'
 import RightSidebar from './components/rightbar'
 
 const App = () => {
-  const [activeTab, setActiveTab] = useState('For You')
 
   return (
     <>
-      <Navbar activeTab={activeTab} onTabChange={setActiveTab} />
+      <Navbar/>
       <div className='pt-20'>
-        <Mainpage activeTab={activeTab} />
+        <Mainpage />
       </div>
       <Sidebar />
       <RightSidebar />

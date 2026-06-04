@@ -116,4 +116,9 @@ Fungsi:
 CODE EXPLANATION
 ======================================================
 
+![Home](./src/assets/screenshot/appcode.png)
+
+App.jsx adalah komponen utama dalam aplikasi React yang berfungsi untuk mengatur struktur layout dan menampilkan komponen utama seperti Navbar, Sidebar, Main Content, dan Right Sidebar.
+
+
 >>>>>>> cccab9d21fea63276269aaa883abae2dd58703ce
