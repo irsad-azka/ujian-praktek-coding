@@ -19,16 +19,6 @@ const Halamanutama = () => {
     const [postContent, setPostContent] = useState([]);
     
     
-    
-    const [photos, setPhotos] = useState([]);
-    useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos")
-      .then(res => res.json())
-      .then(data => setPhotos(data));
-  }, []);
-
-
-
 
     const handlePost = () => {
       if (!text.trim()) return;
