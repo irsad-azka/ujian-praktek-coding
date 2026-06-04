@@ -138,4 +138,46 @@ Memberikan jarak atas agar konten tidak tertutup Navbar.
 -Menampilkan konten tambahan di sisi kanan.
 
 
+CODE EXPLANATION MAINPAGE USETATE
+==================================================================
+
+![Home](./src/assets/screenshot/usetate1code.png)
+![Home](./src/assets/screenshot/usetate2code.png)
+![Home](./src/assets/screenshot/usetatecode.png)
+
+Di bagian ini saya membuat fitur sederhana seperti Twitter/X, di mana user bisa membuat post dan langsung muncul di feed.
+
+### Handle Post
+
+Fungsi handlePost saya gunakan untuk menangani saat user membuat post:
+
+Saya cek dulu apakah input kosong, kalau kosong maka tidak diproses
+Jika ada isi, text akan dimasukkan ke state postContent
+Post baru saya letakkan di paling depan agar muncul paling atas
+Setelah itu input saya reset menjadi kosong
+
+Intinya: fungsi ini digunakan untuk menambahkan post baru.
+
+
+
+
+
+### render Post
+
+Untuk menampilkan post, saya menggunakan postContent.map():
+
+Semua data post saya looping
+Setiap item ditampilkan menjadi sebuah card
+
+Isi dari card:
+
+-Foto profil user
+
+-Nama dan username
+
+-Isi post
+
+-Beberapa icon seperti comment, repost, like, dan share
+
+Intinya: bagian ini digunakan untuk menampilkan semua post ke tampilan.
 >>>>>>> cccab9d21fea63276269aaa883abae2dd58703ce
